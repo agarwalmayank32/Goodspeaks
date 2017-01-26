@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+
+
+    <RelativeLayout
+        android:id="@+id/RR1"
+        android:layout_width="50dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:visibility="visible"
+        >
+
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/square_textview_cc"
+            android:layout_width="8dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/textView_bottombar"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:background="@drawable/texview_circular_design_cc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView_circle"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="#FFF"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/RR1"
+        android:layout_toLeftOf="@+id/textView_date"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/rr3"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Ice Breaker"
+            android:textSize="20sp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_name"
+            android:textSize="15sp"
+            android:text="Your speech title"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_date"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1Nov'16"/>
+
+
+
+    <TextView
+        android:background="@drawable/square_textview_cc"
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView_topbar"
+        android:layout_marginLeft="38dp"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

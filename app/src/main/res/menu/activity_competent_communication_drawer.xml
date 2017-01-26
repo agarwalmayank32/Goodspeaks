@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/gg1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/cc"
+            android:title="@string/cc_option" />
+        <item
+            android:id="@+id/cl"
+            android:title="@string/cl_option" />
+        <item
+            android:id="@+id/mentor"
+            android:title="@string/mentor_option" />
+        <item
+            android:id="@+id/goals"
+            android:title="@string/goals_option" />
+        <item
+            android:id="@+id/articles"
+            android:title="@string/articles_option" />
+    </group>
+
+    <group
+        android:id="@+id/gg2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/rate"
+            android:title="@string/rate_option"/>
+        <item
+            android:id="@+id/about"
+            android:title="@string/about_option"/>
+        <item
+            android:id="@+id/tandc"
+            android:title="@string/tandc_option"/>
+    </group>
+
+</menu>

@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Goodspeaks</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Drawer Menu-->
+    <string name="cc_option">Competent Communication</string>
+    <string name="cl_option">Competent Leadership</string>
+    <string name="export_option">Export Data</string>
+    <string name="mentor_option">Mentorship</string>
+    <string name="goals_option">Goals</string>
+    <string name="articles_option">Articles</string>
+    <string name="rate_option">Rate the app</string>
+    <string name="about_option">About</string>
+    <string name="tandc_option">Give Feedback</string>
+
+    <string name="title_activity_competent_communication">Competent Communication</string>
+    <string name="title_activity_competent_leadership">Competent Leadership</string>
+    <string name="title_activity_mentorship">Mentorship</string>
+    <string name="title_activity_rate">Rate</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_terms_and_conditions">Terms And Conditions</string>
+    <string name="title_activity_speech_detail">Speech Detail</string>
+
+    <string name="indicator_expandable_listview">Indicator Of Expandable Listview Image</string>
+
+
+    <!-- Speech Project Titles -->
+    <string name="cc_project1">Ice Breaker</string>
+    <string name="cc_project2">Organize Your Speech</string>
+    <string name="cc_project3">Get to the Point</string>
+    <string name="cc_project4">How to Say It</string>
+    <string name="cc_project5">Your Body Speaks</string>
+    <string name="cc_project6">Vocal Variety</string>
+    <string name="cc_project7">Research Your Topic</string>
+    <string name="cc_project8">Get Comfortable with Visual Aids</string>
+    <string name="cc_project9">Persuade With Power</string>
+    <string name="cc_project10">Inspire Your Audience</string>
+
+    Speech project minimum times
+    <integer name="cc_time_1">4</integer>
+    <integer name="cc_time_2">5</integer>
+    <integer name="cc_time_3">5</integer>
+    <integer name="cc_time_4">5</integer>
+    <integer name="cc_time_5">5</integer>
+    <integer name="cc_time_6">5</integer>
+    <integer name="cc_time_7">5</integer>
+    <integer name="cc_time_8">5</integer>
+    <integer name="cc_time_9">5</integer>
+    <integer name="cc_time_10">8</integer>-->
+
+
+    <!-- Leadership Projects-->
+    <string name="cl_project1">Listening</string>
+    <string name="cl_project2">Critical Thinking</string>
+    <string name="cl_project3">Giving Feedback</string>
+    <string name="cl_project4">Time Management</string>
+    <string name="cl_project5">Planning and Implementation</string>
+    <string name="cl_project6">Organization and Delegation</string>
+    <string name="cl_project7">Facilitation</string>
+    <string name="cl_project8">Motivation</string>
+    <string name="cl_project9">Mentoring</string>
+    <string name="cl_project10">Team Building</string>
+
+    <!-- Leadership Roles -->
+    <string name="speech_evaluator">Speech Evaluator</string>
+    <string name="tt_speaker">Table Topics Speaker</string>
+    <string name="ah_counter">Ah-Counter</string>
+    <string name="grammarian">Grammarian</string>
+    <string name="general_evaluator">General Evaluator</string>
+    <string name="timer">Timer</string>
+    <string name="toastmaster">Toastmaster</string>
+    <string name="speaker">Speaker</string>
+    <string name="topicmaster">Topicmaster</string>
+    <string name="organise_speech_contest">Help Organize a Club Speech Contest</string>
+    <string name="organise_special_event">Help Organize a Club Special Event</string>
+    <string name="organise_membership_campaign">Help Organize a Membership Campaign or Contest</string>
+    <string name="organise_pr_campaign">Help Organize a Cub PR Campaign</string>
+    <string name="produce_club_newsletter">Help Produce a Club Newsletter</string>
+    <string name="club_webmaster">Club Webmaster</string>
+    <string name="contest_chair">Club Speech Contest Chair</string>
+    <string name="membership_campaign_chair">Club Membership Campaign Chair</string>
+    <string name="pr_chair">Club PR Campaign Chair</string>
+    <string name="event_chair">Club Special Event Chair</string>
+    <string name="newsletter_chair">Club Newsletter Chair</string>
+    <string name="mentor_new">Mentor for a New Member</string>
+    <string name="mentor_existing">Mentor for an Existing Member</string>
+    <string name="hpl_guidance_committee_member">HPL Guidance Committee Member</string>
+    <string name="assist_webmaster">Assist the Club\'s Webmaster</string>
+    <string name="befriend_guest">Befriend a Friend</string>
+
+    <!--content_speech_detail.xml-->
+    <string name="title_heading">Title</string>
+    <string name="title_sample">Your speech title..</string>
+    <string name="date_heading">Date</string>
+    <string name="date_sample">Speech date here</string>
+    <string name="completed_heading">Completed</string>
+    <string name="practice_speeches_heading">Practice Speeches</string>
+    <string name="evaluations_heading">Evaluations</string>
+
+    <!--Speech_Details.java-->
+    <string name="enter_title_heading">Enter Title</string>
+    <string name="enter_evaluation_heading">Enter Evaluation</string>
+    <string name="evaluation_enter_hint">Your evaluations will be added here</string>
+
+    <!--single_evaluation.xml-->
+    <string name="Bullet_Point">•</string>
+    <string name="title_activity_practice__speech">Practice Speech</string>
+
+    <!--Alert Screen-->
+    <string name="rate_screen_title">Support us by rating on the Play Store</string>
+    <string name="rate_us_now">RATE US NOW</string>
+    <string name="rate_later"> Later</string>
+    <string name="rate_not_happy">Not Happy</string>
+
+    <!-- About Screen-->
+    <string name="about_screen_text">This application is aimed at helping new toastmasters around the world to
+        manage their speeches and roles effectively. Also, one can record practice speeches and save them against respective speech projects.
+        Moreover, one can record which roles they have completed and efficiently schedule
+        new roles for themselves.
+        We have several features like sharing data with mentors, articles, managing goals in the pipeline.
+    </string>
+
+    <!--practice_speech.xml-->
+    <string name="speechDialogHeading">Save the speech</string>
+
+
+    <!-- Intents -->
+    <string name="refresh_activity_intent_action">com.app.goodspeaks.updateActivity</string>
+    <string name="practice_now">Practice Now</string>
+    <string name="add_evaluation">Add Evaluation</string>
+
+</resources>

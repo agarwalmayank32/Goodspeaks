@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cocoagarage.application.goodspeaks">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name="com.cocoagarage.application.goodspeaks.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:fullBackupContent="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.cocoagarage.application.goodspeaks.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cocoagarage.application.goodspeaks.Competent_Leadership"
+            android:label="@string/title_activity_competent_leadership"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cocoagarage.application.goodspeaks.Mentorship"
+            android:label="@string/title_activity_mentorship"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cocoagarage.application.goodspeaks.Rate"
+            android:label="@string/title_activity_rate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cocoagarage.application.goodspeaks.About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cocoagarage.application.goodspeaks.TermsAndConditions"
+            android:label="@string/title_activity_terms_and_conditions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cocoagarage.application.goodspeaks.Speech_Detail"
+            android:label="@string/title_activity_speech_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cocoagarage.application.goodspeaks.Practice_Speech"
+            android:label="@string/title_activity_practice__speech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.cocoagarage.application.goodspeaks.competentCommunication"
+            android:label="@string/title_activity_competent_communication"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.cocoagarage.application.goodspeaks.RecordedSpeech"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="223f7347dec181bbc2fa2e8a4d5647a3d7aaa7fd" />
+    </application>
+</manifest>
